@@ -16,7 +16,7 @@ try:
 except FileExistsError:
     print('Directory Already Exists')
 
-# download main html page and conver into tree
+# download main html page and convert into tree
 html_page = requests.get('https://slackmojis.com/categories/19-random-emojis')
 html_tree = html.fromstring(html_page.text)
 
