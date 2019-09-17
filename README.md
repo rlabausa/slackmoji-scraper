@@ -1,7 +1,8 @@
 # slackmoji-scraper
 This is a simple program that automates the process of downloading all emojis from https://slackmojis.com/. 
 
-To run the program, install the required packages. This can be done by running the following command from the root of the project directory:
+## Running Locally
+Clone the repo and install the required dependencies. This can be done by running the following command from the root of the project directory:
 ```Bash
 pip3 install -r requirements.txt
 ``` 
